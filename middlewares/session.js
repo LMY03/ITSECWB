@@ -6,10 +6,11 @@ exports.checkAuth = function(req, res, next){
     else res.redirect('/');// return next();
 };
 
-exports.isAuth = function(req, res, next){
+exports.isAuth = function(req, res, next) {
     if(req.session.user) return next();
     else res.redirect('/');
 };
+
 exports.checkAuthinLogin = function (req, res, next) {
     if (req.session.user) {
       res.redirect("/");

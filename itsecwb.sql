@@ -17,4 +17,4 @@ CREATE USER IF NOT EXISTS 'itsecur'@'%' IDENTIFIED BY 'lingui250!';
 
 GRANT SELECT, UPDATE, INSERT, DELETE ON ITSECWB_DB.* TO 'itsecur'@'%';
 
-INSERT INTO `users` VALUES (1,'admin','admin','admin@email.com','$2b$10$WlbczTEc7Zv8e.fDAM6tEOPyiFddIMTz0RPNceinvefmZedEt002C','09999999999','1718007341558.png','admin');
+INSERT INTO `users` VALUES (1,'admin','admin','admin@email.com','$2b$10$h0EzMe/lOG.vbB8u/DxeIeq4dgfclXCLmGSPA1z8RbBXId99BF1z2','09999999999','1718007341558.png','admin');

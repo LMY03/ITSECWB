@@ -100,7 +100,7 @@ const user = {
             return res.redirect("/register");
         }
 
-        const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+        const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/; // character limit 255 octet chars 
         const phoneRegex = /^(\+63|0)?9\d{9}$/;
         // const phoneRegex = /^(0|(\+63)\s?|9)\d{3}[-\s]?\d{3}[-\s]?\d{4}$/;
 
